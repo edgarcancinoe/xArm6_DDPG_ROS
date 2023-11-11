@@ -1,0 +1,5 @@
+xarm_ros/xarm6_moveit_config
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm6_moveit_config/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm6_moveit_config/share/xarm6_moveit_config/cmake/xarm6_moveit_configConfig.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/xarm6_moveit_config/cmake/xarm6_moveit_configConfig.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm6_moveit_config/share/xarm6_moveit_config/cmake/xarm6_moveit_configConfig-version.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/xarm6_moveit_config/cmake/xarm6_moveit_configConfig-version.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm6_moveit_config/lib/pkgconfig/xarm6_moveit_config.pc /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/xarm6_moveit_config.pc

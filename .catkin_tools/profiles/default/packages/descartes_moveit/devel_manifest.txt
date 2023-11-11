@@ -1,0 +1,6 @@
+descartes/descartes_moveit
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_moveit/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_moveit/share/descartes_moveit/cmake/descartes_moveitConfig.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_moveit/cmake/descartes_moveitConfig.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_moveit/share/descartes_moveit/cmake/descartes_moveitConfig-version.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_moveit/cmake/descartes_moveitConfig-version.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_moveit/lib/libdescartes_moveit.so /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libdescartes_moveit.so
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_moveit/lib/pkgconfig/descartes_moveit.pc /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/descartes_moveit.pc

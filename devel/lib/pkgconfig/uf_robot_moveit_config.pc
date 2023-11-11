@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/uf_robot_moveit_config/lib/pkgconfig/uf_robot_moveit_config.pc

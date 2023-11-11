@@ -1,0 +1,4 @@
+[ 33%] Built target findobj2d_grasp_api
+[ 33%] Built target xarm_msgs_generate_messages_cpp
+[ 66%] Built target obj2base
+[100%] Built target findobj2d_grasp_moveit

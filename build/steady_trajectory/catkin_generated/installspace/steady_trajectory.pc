@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/install
+
+Name: steady_trajectory
+Description: Description of steady_trajectory
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

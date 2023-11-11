@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/install
+
+Name: xarm_gazebo
+Description: Description of xarm_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

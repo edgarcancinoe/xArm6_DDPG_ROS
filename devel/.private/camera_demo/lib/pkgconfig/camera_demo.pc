@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/camera_demo
+
+Name: camera_demo
+Description: Description of camera_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

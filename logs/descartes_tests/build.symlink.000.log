@@ -1,0 +1,4 @@
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_tests/cmake/descartes_testsConfig.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_tests/cmake/descartes_testsConfig-version.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libdescartes_tests.so
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/descartes_tests.pc

@@ -1,0 +1,15 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/descartes_moveit.dir/src/ikfast_moveit_state_adapter.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/descartes_moveit.dir/src/moveit_state_adapter.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/descartes_moveit.dir/src/plugin_init.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/descartes_moveit.dir/src/seed_search.cpp.o[0m
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/descartes/descartes_moveit/src/seed_search.cpp:[m[K In function ‘[01m[Kbool doIK(moveit::core::RobotState&, const moveit::core::JointModelGroup*, const string&, const string&, const Isometry3d&, const JointConfig&, JointConfig&)[m[K’:
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/descartes/descartes_moveit/src/seed_search.cpp:64:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, const string&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)[m[K’ is deprecated: The attempts argument is not supported anymore. [[01;35m[K-Wdeprecated-declarations[m[K]
+   64 |   if (!state.setFromIK(group, pose, tool, N_ATTEMPTS, IK_TIMEOUT[01;35m[K)[m[K)
+      |                                                                 [01;35m[K^[m[K
+In file included from [01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/descartes/descartes_moveit/include/descartes_moveit/seed_search.h:38[m[K,
+                 from [01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/descartes/descartes_moveit/src/seed_search.cpp:20[m[K:
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:1009:3:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1009 |   [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+      |   [01;36m[K^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_moveit/lib/libdescartes_moveit.so[0m
+[100%] Built target descartes_moveit

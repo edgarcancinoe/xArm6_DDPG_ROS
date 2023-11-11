@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/install
+
+Name: moveit_commander
+Description: Description of moveit_commander
+Version: 1.1.13
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

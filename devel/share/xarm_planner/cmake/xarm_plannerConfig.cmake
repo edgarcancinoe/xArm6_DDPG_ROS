@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig.cmake

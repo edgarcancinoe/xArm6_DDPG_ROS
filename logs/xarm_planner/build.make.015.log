@@ -1,0 +1,24 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _xarm_planner_generate_messages_check_deps_single_straight_plan
+[  0%] Built target _xarm_planner_generate_messages_check_deps_pose_plan
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _xarm_planner_generate_messages_check_deps_joint_plan
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _xarm_planner_generate_messages_check_deps_exec_plan
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target xarm_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 17%] Built target xarm_planner_generate_messages_py
+[ 32%] Built target xarm_planner_generate_messages_cpp
+[ 50%] Built target xarm_planner_generate_messages_eus
+[ 64%] Built target xarm_planner_generate_messages_lisp
+[ 78%] Built target xarm_planner_generate_messages_nodejs
+[ 78%] Built target xarm_planner_generate_messages
+[ 85%] Built target xarm_simple_planner_test
+[ 92%] Built target xarm_simple_planner
+[100%] Built target xarm_gripper_planner

@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_dual_panda_moveit_config
+
+Name: moveit_resources_dual_panda_moveit_config
+Description: Description of moveit_resources_dual_panda_moveit_config
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

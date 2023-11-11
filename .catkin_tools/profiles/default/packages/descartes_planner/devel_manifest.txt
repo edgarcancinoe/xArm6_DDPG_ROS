@@ -1,0 +1,6 @@
+descartes/descartes_planner
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_planner/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_planner/share/descartes_planner/cmake/descartes_plannerConfig.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_planner/cmake/descartes_plannerConfig.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_planner/share/descartes_planner/cmake/descartes_plannerConfig-version.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_planner/cmake/descartes_plannerConfig-version.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_planner/lib/libdescartes_planner.so /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libdescartes_planner.so
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_planner/lib/pkgconfig/descartes_planner.pc /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/descartes_planner.pc

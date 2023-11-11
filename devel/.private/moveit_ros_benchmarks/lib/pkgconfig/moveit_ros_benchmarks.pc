@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_benchmarks
+
+Name: moveit_ros_benchmarks
+Description: Description of moveit_ros_benchmarks
+Version: 1.1.13
+Cflags: -I/home/edgarcancinoe/xarm6/catkin_ws/src/moveit/moveit_ros/benchmarks/include
+Libs: -L${prefix}/lib -lmoveit_ros_benchmarks
+Requires: tf2_eigen moveit_ros_planning moveit_ros_warehouse roscpp

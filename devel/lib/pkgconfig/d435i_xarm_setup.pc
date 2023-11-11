@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/d435i_xarm_setup/lib/pkgconfig/d435i_xarm_setup.pc

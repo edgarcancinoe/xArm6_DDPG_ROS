@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/install
+
+Name: descartes_tests
+Description: Description of descartes_tests
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ldescartes_tests
+Requires: descartes_moveit descartes_planner descartes_trajectory eigen_conversions

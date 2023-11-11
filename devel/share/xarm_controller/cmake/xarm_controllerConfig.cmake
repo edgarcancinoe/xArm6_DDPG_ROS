@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_controller/share/xarm_controller/cmake/xarm_controllerConfig.cmake

@@ -1,0 +1,12 @@
+setup.py
+/home/edgarcancinoe/gym-rl/env_rl_310/lib/python3.10/site-packages/mujoco_py/__init__.py
+/home/edgarcancinoe/gym-rl/env_rl_310/lib/python3.10/site-packages/mujoco_py/builder.py
+/home/edgarcancinoe/gym-rl/env_rl_310/lib/python3.10/site-packages/mujoco_py/mjrenderpool.py
+/home/edgarcancinoe/gym-rl/env_rl_310/lib/python3.10/site-packages/mujoco_py/mjviewer.py
+/home/edgarcancinoe/gym-rl/env_rl_310/lib/python3.10/site-packages/mujoco_py/modder.py
+/home/edgarcancinoe/gym-rl/env_rl_310/lib/python3.10/site-packages/mujoco_py/utils.py
+/home/edgarcancinoe/gym-rl/env_rl_310/lib/python3.10/site-packages/mujoco_py/version.py
+my_mujoco_package.egg-info/PKG-INFO
+my_mujoco_package.egg-info/SOURCES.txt
+my_mujoco_package.egg-info/dependency_links.txt
+my_mujoco_package.egg-info/top_level.txt

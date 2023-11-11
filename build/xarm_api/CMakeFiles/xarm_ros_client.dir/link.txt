@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libxarm_ros_client.so -o /home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_api/lib/libxarm_ros_client.so CMakeFiles/xarm_ros_client.dir/src/xarm_ros_client.cpp.o 

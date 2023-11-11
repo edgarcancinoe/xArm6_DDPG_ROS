@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_api/lib;/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_sdk/lib;/opt/ros/noetic/lib")

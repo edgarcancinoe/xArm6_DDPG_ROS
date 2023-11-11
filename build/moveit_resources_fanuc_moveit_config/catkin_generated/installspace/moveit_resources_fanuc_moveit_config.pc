@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/install
+
+Name: moveit_resources_fanuc_moveit_config
+Description: Description of moveit_resources_fanuc_moveit_config
+Version: 0.8.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

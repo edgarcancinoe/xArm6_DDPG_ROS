@@ -1,0 +1,8 @@
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_planner/src/xarm_gripper_planner.cpp:[m[K In member function ‘[01m[Kvoid XArmGripperPlanner::init()[m[K’:
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_planner/src/xarm_gripper_planner.cpp:68:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >& moveit::planning_interface::MoveGroupInterface::getJointNames() const[m[K’ is deprecated: use getVariableNames [[01;35m[K-Wdeprecated-declarations[m[K]
+   68 |   joint_names = group.getJointNames([01;35m[K)[m[K;
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_planner/src/xarm_gripper_planner.cpp:7[m[K:
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:205:74:[m[K [01;36m[Knote: [m[Kdeclared here
+  205 |   [[deprecated("use getVariableNames")]] const std::vector<std::string>& [01;36m[KgetJointNames[m[K() const
+      |                                                                          [01;36m[K^~~~~~~~~~~~~[m[K

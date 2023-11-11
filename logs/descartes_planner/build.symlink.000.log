@@ -1,0 +1,4 @@
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_planner/cmake/descartes_plannerConfig.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_planner/cmake/descartes_plannerConfig-version.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libdescartes_planner.so
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/descartes_planner.pc

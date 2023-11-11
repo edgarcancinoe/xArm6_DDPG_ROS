@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/CIOState.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/Call.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/ClearErr.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/ConfigToolModbus.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/FtCaliLoad.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/FtIdenLoad.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GetAnalogIO.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GetControllerDigitalIO.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GetDigitalIO.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GetErr.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GetFloat32List.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GetInt32.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GetSetModbusData.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GripperConfig.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GripperMove.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/GripperState.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/IOState.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/Move.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/MoveAxisAngle.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/MoveVelo.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/MoveVelocity.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/PlayTraj.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/RobotMsg.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetAxis.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetControllerAnalogIO.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetDigitalIO.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetFloat32.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetInt16.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetLoad.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetModbusTimeout.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetMultipleInts.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetString.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/SetToolModbus.h"
+  "/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_msgs/include/xarm_msgs/TCPOffset.h"
+  "CMakeFiles/xarm_msgs_generate_messages_cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/xarm_msgs_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

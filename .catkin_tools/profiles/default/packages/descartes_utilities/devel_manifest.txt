@@ -1,0 +1,6 @@
+descartes/descartes_utilities
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_utilities/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_utilities/share/descartes_utilities/cmake/descartes_utilitiesConfig.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_utilities/cmake/descartes_utilitiesConfig.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_utilities/share/descartes_utilities/cmake/descartes_utilitiesConfig-version.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_utilities/cmake/descartes_utilitiesConfig-version.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_utilities/lib/libdescartes_utilities.so /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libdescartes_utilities.so
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_utilities/lib/pkgconfig/descartes_utilities.pc /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/descartes_utilities.pc

@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_chomp_optimizer_adapter
+
+Name: moveit_chomp_optimizer_adapter
+Description: Description of moveit_chomp_optimizer_adapter
+Version: 1.1.13
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

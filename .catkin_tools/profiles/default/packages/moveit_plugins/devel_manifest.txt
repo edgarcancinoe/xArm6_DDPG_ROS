@@ -1,0 +1,2 @@
+moveit/moveit_plugins/moveit_plugins
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_plugins/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock

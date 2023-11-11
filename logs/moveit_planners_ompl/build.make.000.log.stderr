@@ -1,0 +1,10 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [ompl_interface/CMakeFiles/moveit_generate_state_database.dir/build.make:76: ompl_interface/CMakeFiles/moveit_generate_state_database.dir/scripts/generate_state_database.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2571: ompl_interface/CMakeFiles/moveit_generate_state_database.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [ompl_interface/CMakeFiles/moveit_ompl_planner_plugin.dir/build.make:76: ompl_interface/CMakeFiles/moveit_ompl_planner_plugin.dir/src/ompl_planner_manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2598: ompl_interface/CMakeFiles/moveit_ompl_planner_plugin.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

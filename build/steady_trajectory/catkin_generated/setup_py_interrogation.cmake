@@ -1,0 +1,7 @@
+set(steady_trajectory_SETUP_PY_SETUP_MODULE "setuptools")
+set(steady_trajectory_SETUP_PY_VERSION "0.0.0")
+set(steady_trajectory_SETUP_PY_SCRIPTS "")
+set(steady_trajectory_SETUP_PY_PACKAGES "simulation, util, actor_network")
+set(steady_trajectory_SETUP_PY_PACKAGE_DIRS "simulation, util, actor_network")
+set(steady_trajectory_SETUP_PY_MODULES "")
+set(steady_trajectory_SETUP_PY_MODULE_DIRS "")

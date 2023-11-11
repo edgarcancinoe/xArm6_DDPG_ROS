@@ -1,0 +1,6 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/moveit_move_group_default_capabilities.dir/build.make:146: CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/state_validation_service_capability.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:2765: CMakeFiles/moveit_move_group_default_capabilities.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

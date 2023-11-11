@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>descartes_moveit</name>
+  <version>0.0.1</version>
+  <description>Moveit wrapper functions for descartes base types</description>
+
+  <maintainer email="jnicho@swri.org">Jorge Nicho</maintainer>
+  <maintainer email="jonathan.meyer@swri.org">Jonathan Meyer</maintainer>
+  <maintainer email="sedwards@swri.org">Shaun Edwards</maintainer>
+  
+  <license>Apache2</license>
+
+  <author >Shaun Edwards</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rosconsole_bridge</depend>
+  <depend>moveit_core</depend>
+  <depend>tf</depend>
+  <depend>cmake_modules</depend>
+  <depend>descartes_core</depend>
+  <depend>descartes_trajectory</depend>
+  <depend>moveit_ros_planning</depend>
+  <depend>pluginlib</depend>
+  <build_depend>eigen</build_depend>
+
+  <export>
+    <descartes_core plugin="${prefix}/moveit_adapter_plugins.xml"/>
+    <rosdoc config="rosdoc.yaml"/>
+  </export>
+</package>

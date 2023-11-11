@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/camera_demo/share/camera_demo/cmake/camera_demoConfig-version.cmake

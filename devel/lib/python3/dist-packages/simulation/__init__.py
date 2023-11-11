@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/steady_trajectory/lib/python3/dist-packages/simulation/__init__.py

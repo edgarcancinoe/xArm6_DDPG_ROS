@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/run_recorded_traj/share/run_recorded_traj/cmake/run_recorded_trajConfig.cmake

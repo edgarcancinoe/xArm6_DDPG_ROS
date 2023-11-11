@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/chomp_motion_planner
+
+Name: chomp_motion_planner
+Description: Description of chomp_motion_planner
+Version: 1.1.13
+Cflags: -I/home/edgarcancinoe/xarm6/catkin_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/include
+Libs: -L${prefix}/lib -lchomp_motion_planner
+Requires: 

@@ -1,0 +1,4 @@
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_core/cmake/descartes_coreConfig-version.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_core/cmake/descartes_coreConfig.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libdescartes_core.so
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/descartes_core.pc

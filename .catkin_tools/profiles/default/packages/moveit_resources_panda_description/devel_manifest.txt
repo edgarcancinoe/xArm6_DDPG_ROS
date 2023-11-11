@@ -1,0 +1,6 @@
+moveit_resources/panda_description
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_panda_description/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_panda_description/share/moveit_resources_panda_description/robots/panda.urdf /home/edgarcancinoe/xarm6/catkin_ws/devel/share/moveit_resources_panda_description/robots/panda.urdf
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_panda_description/lib/pkgconfig/moveit_resources_panda_description.pc /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/moveit_resources_panda_description.pc

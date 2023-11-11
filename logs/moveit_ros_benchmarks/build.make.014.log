@@ -1,0 +1,7 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library /home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so[0m
+[ 42%] Built target moveit_ros_benchmarks
+[ 71%] [32m[1mLinking CXX executable /home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_combine_predefined_poses_benchmark[0m
+[ 71%] [32m[1mLinking CXX executable /home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark[0m
+[ 85%] Built target moveit_run_benchmark
+[100%] Built target moveit_combine_predefined_poses_benchmark

@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_trajectory
+
+Name: descartes_trajectory
+Description: Description of descartes_trajectory
+Version: 0.0.1
+Cflags: -I/home/edgarcancinoe/xarm6/catkin_ws/src/descartes/descartes_trajectory/include -I/usr/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ldescartes_trajectory
+Requires: descartes_core moveit_core roscpp

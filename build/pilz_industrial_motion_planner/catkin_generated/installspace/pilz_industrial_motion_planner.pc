@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/install
+
+Name: pilz_industrial_motion_planner
+Description: Description of pilz_industrial_motion_planner
+Version: 1.1.13
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: moveit_msgs roscpp tf2_geometry_msgs

@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_planner/share/common-lisp/ros/xarm_planner/srv/_package_pose_plan.lisp

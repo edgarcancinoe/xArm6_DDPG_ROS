@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/panda_moveit_config
+
+Name: panda_moveit_config
+Description: Description of panda_moveit_config
+Version: 0.8.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

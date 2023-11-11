@@ -1,0 +1,6 @@
+xarm_ros/xarm_sdk
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_sdk/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/xarm_sdk/cmake/xarm_sdkConfig.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_sdk/lib/libxarm_cxx_sdk.so /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libxarm_cxx_sdk.so
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_sdk/lib/pkgconfig/xarm_sdk.pc /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/xarm_sdk.pc

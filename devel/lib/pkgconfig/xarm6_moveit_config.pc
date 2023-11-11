@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm6_moveit_config/lib/pkgconfig/xarm6_moveit_config.pc

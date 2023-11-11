@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_gripper/share/xarm_gripper/cmake/xarm_gripperConfig-version.cmake

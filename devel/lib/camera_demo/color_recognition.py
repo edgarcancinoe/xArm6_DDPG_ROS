@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/camera_demo/lib/camera_demo/color_recognition.py

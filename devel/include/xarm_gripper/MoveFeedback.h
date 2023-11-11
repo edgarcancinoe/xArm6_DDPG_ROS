@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_gripper/include/xarm_gripper/MoveFeedback.h

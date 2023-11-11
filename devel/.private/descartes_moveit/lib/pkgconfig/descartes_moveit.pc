@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_moveit
+
+Name: descartes_moveit
+Description: Description of descartes_moveit
+Version: 0.0.1
+Cflags: -I/home/edgarcancinoe/xarm6/catkin_ws/src/descartes/descartes_moveit/include -I/usr/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ldescartes_moveit
+Requires: cmake_modules descartes_core descartes_trajectory moveit_core rosconsole_bridge tf

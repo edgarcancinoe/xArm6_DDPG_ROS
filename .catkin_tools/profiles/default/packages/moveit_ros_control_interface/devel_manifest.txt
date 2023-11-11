@@ -1,0 +1,9 @@
+moveit/moveit_plugins/moveit_ros_control_interface
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_control_interface/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig-version.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig-version.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libmoveit_ros_control_interface_plugin.so
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libmoveit_ros_control_interface_trajectory_plugin.so
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.1.1.13 /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libmoveit_ros_control_interface_trajectory_plugin.so.1.1.13
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.1.1.13 /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libmoveit_ros_control_interface_plugin.so.1.1.13
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_control_interface/lib/pkgconfig/moveit_ros_control_interface.pc /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/moveit_ros_control_interface.pc

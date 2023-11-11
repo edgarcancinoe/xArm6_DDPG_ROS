@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_tests/setup.sh

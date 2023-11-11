@@ -1,0 +1,8 @@
+Linked: (/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_controller/share/xarm_controller/cmake/xarm_controllerConfig-version.cmake, /home/edgarcancinoe/xarm6/catkin_ws/devel/share/xarm_controller/cmake/xarm_controllerConfig-version.cmake)
+Linked: (/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_controller/share/xarm_controller/cmake/xarm_controllerConfig.cmake, /home/edgarcancinoe/xarm6/catkin_ws/devel/share/xarm_controller/cmake/xarm_controllerConfig.cmake)
+Linked: (/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_controller/lib/libxarm_hw.so, /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libxarm_hw.so)
+Linked: (/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_controller/lib/libxarm_combined_hw.so, /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libxarm_combined_hw.so)
+Linked: (/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_controller/lib/xarm_controller/sample_motion, /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/xarm_controller/sample_motion)
+Linked: (/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_controller/lib/xarm_controller/uf_ros_controller, /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/xarm_controller/uf_ros_controller)
+Linked: (/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_controller/lib/xarm_controller/xarm_combined_traj_controller, /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/xarm_controller/xarm_combined_traj_controller)
+Linked: (/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_controller/lib/pkgconfig/xarm_controller.pc, /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/xarm_controller.pc)

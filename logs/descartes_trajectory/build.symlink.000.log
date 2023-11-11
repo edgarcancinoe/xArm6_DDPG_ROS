@@ -1,0 +1,4 @@
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_trajectory/cmake/descartes_trajectoryConfig-version.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_trajectory/cmake/descartes_trajectoryConfig.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libdescartes_trajectory.so
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/descartes_trajectory.pc

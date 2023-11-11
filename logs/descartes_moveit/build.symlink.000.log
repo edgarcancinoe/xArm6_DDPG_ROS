@@ -1,0 +1,4 @@
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_moveit/cmake/descartes_moveitConfig.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/share/descartes_moveit/cmake/descartes_moveitConfig-version.cmake
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/libdescartes_moveit.so
+Symlinking /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/descartes_moveit.pc

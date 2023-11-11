@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros_visualization/lib/moveit_ros_visualization/moveit_joy.py

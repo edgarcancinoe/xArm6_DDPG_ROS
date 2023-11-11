@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_utilities/lib/pkgconfig/descartes_utilities.pc

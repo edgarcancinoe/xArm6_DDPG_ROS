@@ -1,0 +1,2 @@
+moveit/moveit_ros/moveit_ros
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_ros/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock

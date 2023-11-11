@@ -1,0 +1,11 @@
+[  0%] Built target xarm_msgs_generate_messages_cpp
+[ 10%] Built target example1_report_norm
+[ 20%] Built target xarm_ros_client
+[ 30%] Built target xarm_ros_driver
+[ 40%] Built target servo_cartesian_test
+[ 50%] Built target move_test
+[ 60%] Built target test_xarm_ros_client
+[ 70%] Built target test_xarm_velo_move
+[ 80%] Built target test_xarm_states
+[ 90%] Built target xarm_driver_node
+[100%] Built target test_tool_modbus

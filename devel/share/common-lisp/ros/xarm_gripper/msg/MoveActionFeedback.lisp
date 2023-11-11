@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_gripper/share/common-lisp/ros/xarm_gripper/msg/MoveActionFeedback.lisp

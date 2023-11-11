@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/install
+
+Name: descartes_core
+Description: Description of descartes_core
+Version: 0.0.1
+Cflags: -I${prefix}/include -I/usr/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ldescartes_core
+Requires: moveit_core roscpp

@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/steady_trajectory/share/steady_trajectory/cmake/steady_trajectoryConfig-version.cmake

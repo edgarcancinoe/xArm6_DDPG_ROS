@@ -1,0 +1,6 @@
+devel_space: /home/edgarcancinoe/xarm6/catkin_ws/devel
+install: false
+install_space: /home/edgarcancinoe/xarm6/catkin_ws/install
+profile: default
+source_space: /home/edgarcancinoe/xarm6/catkin_ws/src
+workspace: /home/edgarcancinoe/xarm6/catkin_ws

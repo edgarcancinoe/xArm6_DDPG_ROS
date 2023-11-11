@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/multi_xarm5/lib/pkgconfig/multi_xarm5.pc

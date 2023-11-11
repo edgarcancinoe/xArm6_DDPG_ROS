@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/multi_xarm5
+
+Name: multi_xarm5
+Description: Description of multi_xarm5
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,5 @@
+moveit_resources/prbt_pg70_support
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_prbt_pg70_support/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_prbt_pg70_support/share/moveit_resources_prbt_pg70_support/cmake/moveit_resources_prbt_pg70_supportConfig.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/moveit_resources_prbt_pg70_support/cmake/moveit_resources_prbt_pg70_supportConfig.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_prbt_pg70_support/share/moveit_resources_prbt_pg70_support/cmake/moveit_resources_prbt_pg70_supportConfig-version.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/moveit_resources_prbt_pg70_support/cmake/moveit_resources_prbt_pg70_supportConfig-version.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_resources_prbt_pg70_support/lib/pkgconfig/moveit_resources_prbt_pg70_support.pc /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/moveit_resources_prbt_pg70_support.pc

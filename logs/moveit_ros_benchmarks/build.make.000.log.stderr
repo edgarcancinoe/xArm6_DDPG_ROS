@@ -1,0 +1,5 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/moveit_ros_benchmarks.dir/build.make:90: CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2513: CMakeFiles/moveit_ros_benchmarks.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

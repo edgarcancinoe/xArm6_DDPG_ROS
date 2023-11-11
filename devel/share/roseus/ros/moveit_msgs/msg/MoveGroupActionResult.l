@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_msgs/share/roseus/ros/moveit_msgs/msg/MoveGroupActionResult.l

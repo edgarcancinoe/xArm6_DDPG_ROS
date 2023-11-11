@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_planner
+
+Name: xarm_planner
+Description: Description of xarm_planner
+Version: 0.0.0
+Cflags: -I/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm_planner/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime geometry_msgs std_msgs

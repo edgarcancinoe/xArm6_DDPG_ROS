@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm7_vacuum_gripper_moveit_config/share/xarm7_vacuum_gripper_moveit_config/cmake/xarm7_vacuum_gripper_moveit_configConfig.cmake

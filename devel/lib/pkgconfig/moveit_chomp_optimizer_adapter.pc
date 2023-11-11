@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_chomp_optimizer_adapter/lib/pkgconfig/moveit_chomp_optimizer_adapter.pc

@@ -1,0 +1,27 @@
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/core/report_data.cc:[m[K In member function ‘[01m[Kint ReportDataRich::flush_data(unsigned char*)[m[K’:
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/core/report_data.cc:217:45:[m[K [01;35m[Kwarning: [m[Kiteration 16 invokes undefined behavior [[01;35m[K-Waggressive-loop-optimizations[m[K]
+  217 |   for (int i = 0; i < 17; i++) { [01;35m[Ksv3msg_[i] = data_fp[229 + i][m[K; }
+      |                                  [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/core/report_data.cc:217:21:[m[K [01;36m[Knote: [m[Kwithin this loop
+  217 |   for (int i = 0; [01;36m[Ki < 17[m[K; i++) { sv3msg_[i] = data_fp[229 + i]; }
+      |                   [01;36m[K~~^~~~[m[K
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/core/report_data.cc:[m[K In member function ‘[01m[Kint XArmReportData::_flush_rich_data(unsigned char*)[m[K’:
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/core/report_data.cc:457:44:[m[K [01;35m[Kwarning: [m[Kiteration 16 invokes undefined behavior [[01;35m[K-Waggressive-loop-optimizations[m[K]
+  457 |   for (int i = 0; i < 17; i++) { [01;35m[Ksv3msg[i] = data_fp[229 + i][m[K; }
+      |                                  [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/core/report_data.cc:457:21:[m[K [01;36m[Knote: [m[Kwithin this loop
+  457 |   for (int i = 0; [01;36m[Ki < 17[m[K; i++) { sv3msg[i] = data_fp[229 + i]; }
+      |                   [01;36m[K~~^~~~[m[K
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/core/report_data.cc:460:52:[m[K [01;35m[Kwarning: [m[Kiteration 7 invokes undefined behavior [[01;35m[K-Waggressive-loop-optimizations[m[K]
+  460 |     for (int i = 0; i < 17; i++) { [01;35m[Ktemperatures[i] = data_fp[245 + i][m[K; }
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/core/report_data.cc:460:23:[m[K [01;36m[Knote: [m[Kwithin this loop
+  460 |     for (int i = 0; [01;36m[Ki < 17[m[K; i++) { temperatures[i] = data_fp[245 + i]; }
+      |                     [01;36m[K~~^~~~[m[K
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/wrapper/xarm_report.cc:[m[K In member function ‘[01m[Kvoid XArmAPI::_update_old(unsigned char*)[m[K’:
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/wrapper/xarm_report.cc:160:45:[m[K [01;35m[Kwarning: [m[Kiteration 16 invokes undefined behavior [[01;35m[K-Waggressive-loop-optimizations[m[K]
+  160 |     for (int i = 0; i < 17; i++) [01;35m[Ksv3msg_[i] = data_fp[171 + i][m[K;
+      |                                  [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/edgarcancinoe/xarm6/catkin_ws/src/xarm_ros/xarm_sdk/cxx/src/xarm/wrapper/xarm_report.cc:160:23:[m[K [01;36m[Knote: [m[Kwithin this loop
+  160 |     for (int i = 0; [01;36m[Ki < 17[m[K; i++) sv3msg_[i] = data_fp[171 + i];
+      |                     [01;36m[K~~^~~~[m[K

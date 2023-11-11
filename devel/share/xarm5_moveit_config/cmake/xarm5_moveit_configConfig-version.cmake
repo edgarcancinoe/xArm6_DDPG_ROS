@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/xarm5_moveit_config/share/xarm5_moveit_config/cmake/xarm5_moveit_configConfig-version.cmake

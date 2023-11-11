@@ -1,0 +1,1 @@
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/moveit_planners_ompl/lib/pkgconfig/moveit_planners_ompl.pc

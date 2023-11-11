@@ -1,0 +1,5 @@
+xarm_ros/examples/multi_xarm5
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/multi_xarm5/cmake.lock /home/edgarcancinoe/xarm6/catkin_ws/devel/./cmake.lock
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/multi_xarm5/share/multi_xarm5/cmake/multi_xarm5Config-version.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/multi_xarm5/cmake/multi_xarm5Config-version.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/multi_xarm5/share/multi_xarm5/cmake/multi_xarm5Config.cmake /home/edgarcancinoe/xarm6/catkin_ws/devel/share/multi_xarm5/cmake/multi_xarm5Config.cmake
+/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/multi_xarm5/lib/pkgconfig/multi_xarm5.pc /home/edgarcancinoe/xarm6/catkin_ws/devel/lib/pkgconfig/multi_xarm5.pc

@@ -1,0 +1,8 @@
+prefix=/home/edgarcancinoe/xarm6/catkin_ws/devel/.private/descartes_utilities
+
+Name: descartes_utilities
+Description: Description of descartes_utilities
+Version: 0.0.1
+Cflags: -I/home/edgarcancinoe/xarm6/catkin_ws/src/descartes/descartes_utilities/include
+Libs: -L${prefix}/lib -ldescartes_utilities
+Requires: descartes_core descartes_trajectory trajectory_msgs
