@@ -1,6 +1,7 @@
 # xArm6_DDPG_ROS
 Application of a Deep Deterministic Policy Gradient (DDPG) model with Hindsight Experience Replay to a xArm6 robotic arm in ROS noetic.
 
+
 ## General Description
 The Reinforcement Learning model was trained in a [Gym environment for the UFactory xArm6 robot](https://github.com/julio-design/xArm6-Gym-Env), 
 but a [different DDPG + HER implementation](https://google.com) was utilized.
@@ -18,6 +19,6 @@ The employed model generates a path to follow from a starting and target positio
 end effector from the start of the simulation, to the final target position.
 
 As a side goal of this implementation was to ensure the arm's end effector remains stable throughout its whole trajectory, once the full trajectory is computed by the model, the positions are used as
-waypoints to create a Cartesian Path using the compute_cartesian_path() function of the MoveIt package for the xArm6. 
+waypoints to create a Cartesian Path using the *compute_cartesian_path()* function of the MoveIt package for the xArm6. 
 
 ---
