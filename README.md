@@ -19,6 +19,6 @@ The employed model generates a path to follow from a starting and target positio
 end effector from the start of the simulation, to the final target position.
 
 As a side goal of this implementation was to ensure the arm's end effector remains stable throughout its whole trajectory, once the full trajectory is computed by the model, the positions are used as
-waypoints to create a Cartesian Path using the *compute_cartesian_path()* function of the MoveIt package for the xArm6. 
+waypoints to create a Cartesian Path using the *compute_cartesian_path()* function of the [MoveIt package for the xArm6](https://github.com/xArm-Developer/xarm_ros). 
 
 ---
