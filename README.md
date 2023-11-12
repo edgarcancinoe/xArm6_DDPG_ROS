@@ -22,7 +22,7 @@ As a side goal of this implementation was to ensure the arm's end effector remai
 waypoints to create a Cartesian Path using the *compute_cartesian_path()* function of the [MoveIt package for the xArm6](https://github.com/xArm-Developer/xarm_ros). 
 
 ### Usage
-To run the code, 1 launch and two nodes shall be run consecutively:
+To run the code, one launch and two nodes shall be run consecutively:
 1. Run the RViz simulation node for the xAm6:
    ```
    roslaunch xarm_planner xarm_planner_rviz_sim.launch robot_dof:=6 robot_type:=xarm add_gripper:=true
@@ -34,5 +34,6 @@ To run the code, 1 launch and two nodes shall be run consecutively:
 3. Run the _movement_generator_ node. This node will position the arm into its home starting position and then will listen for targets.
    ```
    rosrun steady_trajectory movement_generator.py
-   ``` 
+   ```
+   
 ---
