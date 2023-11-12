@@ -47,5 +47,21 @@ To run the code, one launch and two nodes shall be run consecutively:
    ```
    rosrun steady_trajectory movement_generator.py
    ```
-   
+
+## Results
+ssdf
+
+## Requirements
+##### ROS
+- ROS Noetic
+- std_msgs
+- geometry_msgs
+  
+##### Python
+- torch
+- mujoco-py
+- numpy
+- rospy
+- moveit_commander
+- 
 ---
