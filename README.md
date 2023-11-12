@@ -65,9 +65,9 @@ ssdf
 - moveit_commander
 
 ## Reference links
-https://github.com/xArm-Developer/xarm_ros
-https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html
-https://github.com/julio-design/xArm6-Gym-Env
-https://github.com/edgarcancinoe/xarm6_DDPG_HER/tree/master
+- https://github.com/xArm-Developer/xarm_ros
+- https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html
+- https://github.com/julio-design/xArm6-Gym-Env
+- https://github.com/edgarcancinoe/xarm6_DDPG_HER/tree/master
 
 ---
