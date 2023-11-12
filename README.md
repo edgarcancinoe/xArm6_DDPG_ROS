@@ -12,7 +12,9 @@ The ROS package [*steady_trajectories*](https://github.com/edgarcancinoe/xArm6_D
 - _target_generator_
   
   Randomly generate targets for the arm to reach and publishes into the '/target' node.
+  
 - _movement_generator_
+  
   Actively listens to the '/target' node and once a target end-effector position is received, it uses the DDPG model to achieve the desired position.
 
 The file _util.py_ contains functions used by the _movement_generator_ node, and the file _simulation.py_ contains the simulation class to generate the desired trajectories.
