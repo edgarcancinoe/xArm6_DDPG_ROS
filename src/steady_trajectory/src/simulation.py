@@ -56,7 +56,7 @@ class TrajectoryPlanner():
         obs = initial_state   
         self.goal = target_position
         for t in range(self.max_n_timesteps):
-            self.render()
+            # self.render()
 
             state = self._pre_process_inputs(obs=obs, goal=target_position)
             with torch.no_grad():
@@ -70,8 +70,6 @@ class TrajectoryPlanner():
             counter += 1
 
             if done:
-                position_trajectory[t+1] = new_obs['achieved_goal']
-                joint_states[t+1] = new_obs['joints']
                 break
             else:
                 obs = new_obs['observation']

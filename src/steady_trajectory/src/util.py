@@ -17,13 +17,13 @@ def set_starting_position(arm) -> None:
 def move_xarm6(planner, goal, arm) -> None:
 
     # Go home position
-    print('Going back to home position')
-    joint_goal = [0, 0, 0, 0, -math.pi/2, 0]
-    arm.go(joint_goal, wait=True)
-    arm.stop()
-    arm.clear_pose_targets()
+    # print('Going back to home position')
+    # joint_goal = [0, 0, 0, 0, -math.pi/2, 0]
+    # arm.go(joint_goal, wait=True)
+    # arm.stop()
+    # arm.clear_pose_targets()
 
-    print('Done')
+    # print('Done')
     
     # Get current arm position
     pose = arm.get_current_pose().pose.position
@@ -46,7 +46,7 @@ def move_xarm6(planner, goal, arm) -> None:
     # obs = [pos_x, pos_y, pos_z, 0, 0, vel_x, vel_y, vel_z, 0, 0]
     obs = [pose.x, pose.y, pose.z, 0, 0, 0, 0, 0, 0, 0]
 
-    # Call planner to get trajectorygripper_extra_height
+    # Call planner to get trajectory
     pos_trajectory, joint_states, success, n = planner.get_trajectory(initial_state = obs.copy(), target_position = goal.copy(), initial_qpos=initial_qpos.copy())
 
     if success:
