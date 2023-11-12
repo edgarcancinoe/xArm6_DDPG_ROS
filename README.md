@@ -9,10 +9,10 @@ but a different [DDPG + HER implementation](https://github.com/edgarcancinoe/xar
 ## xArm6 in ROS
 
 The ROS package [*steady_trajectories*](https://github.com/edgarcancinoe/xArm6_DDPG_ROS/tree/master/src/steady_trajectory) (_/src/steady_trajectory_) contains two main nodes:
-- _target_generator_
+- *target_generator*
   
   Randomly generate targets for the arm to reach and publishes into the '/target' node.
-- _movement_generator_
+- *movement_generator*
 
   Actively listens to the '/target' node and once a target end-effector position is received, it uses the DDPG model to achieve the desired position.
 
