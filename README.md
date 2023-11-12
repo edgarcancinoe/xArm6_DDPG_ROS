@@ -17,10 +17,10 @@ These are later used to make the arm follow the desired trajectory in a Cartesia
 ## xArm6 in ROS
 
 The ROS package [*steady_trajectories*](https://github.com/edgarcancinoe/xArm6_DDPG_ROS/tree/master/src/steady_trajectory) (_/src/steady_trajectory_) contains two main nodes:
-- *target_generator*
+- **target_generator**
   
   Randomly generate targets for the arm to reach and publishes into the '/target' node.
-- *movement_generator*
+- **movement_generator**
 
   Actively listens to the '/target' node and once a target end-effector position is received, it uses the DDPG model to achieve the desired position.
 
