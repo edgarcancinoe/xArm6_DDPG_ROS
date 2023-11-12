@@ -4,7 +4,7 @@ Application of a Deep Deterministic Policy Gradient (DDPG) model with Hindsight 
 
 ## General Description
 The Reinforcement Learning model was trained in a [Gym environment for the UFactory xArm6 robot](https://github.com/julio-design/xArm6-Gym-Env), 
-but a [different DDPG + HER implementation](https://github.com/edgarcancinoe/xarm6_DDPG_HER) was utilized.
+but a different [DDPG + HER implementation](https://github.com/edgarcancinoe/xarm6_DDPG_HER) was used.
 
 ## xArm6 in ROS
 
