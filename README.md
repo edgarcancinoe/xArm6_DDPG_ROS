@@ -18,7 +18,7 @@ The file _util.py_ contains functions used by the _movement_generator_ node, and
 The employed model generates a path to follow from a starting and target position pair. It simulates the trajectory utilizing MujocoPy and stores every single position of the arm's
 end effector from the start of the simulation, to the final target position.
 
-As a side goal of this implementation was to ensure the arm's end effector remains stable throughout its whole trajectory, once the full trajectory is computed by the model, the positions are used as
+Also, becasue a side goal of this implementation was to ensure the arm's end effector remains stable throughout its whole trajectory, once the full path is computed by the model, the positions are used as
 waypoints to create a Cartesian Path using the *compute_cartesian_path()* function of the [MoveIt package for the xArm6](https://github.com/xArm-Developer/xarm_ros). 
 
 ### Usage
