@@ -63,5 +63,8 @@ ssdf
 - numpy
 - rospy
 - moveit_commander
-  
+
+## Reference links
+https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html
+
 ---
