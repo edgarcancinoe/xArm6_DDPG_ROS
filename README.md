@@ -1,10 +1,10 @@
 # xArm6_DDPG_ROS
-Application of a Deep Deterministic Policy Gradient (DDPG) model with Hindsight Experience Replay to a xArm6 robotic arm in ROS noetic.
-
 
 ## General Description
+Application of a Deep Deterministic Policy Gradient (DDPG) model with Hindsight Experience Replay to a xArm6 robotic arm in ROS noetic.
+
 The Reinforcement Learning model was trained in a [Gym environment for the UFactory xArm6 robot](https://github.com/julio-design/xArm6-Gym-Env), 
-but a different [DDPG + HER implementation](https://github.com/edgarcancinoe/xarm6_DDPG_HER) was used.
+but a different [DDPG + HER implementation](https://github.com/edgarcancinoe/xarm6_DDPG_HER) was used, based in the original enviroment's code and OpenAI baseline's [DDPG + HER implementation](https://github.com/openai/baselines/tree/master/baselines/her).
 
 ## xArm6 in ROS
 
