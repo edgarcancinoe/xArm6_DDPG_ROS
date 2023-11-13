@@ -1,4 +1,16 @@
 #!/usr/bin/env python3
+
+"""Torch .pt model to ROS using MoveIt commander
+
+Jose Edgar Hernandez Cancino Estrada
+Instituto Tecnologico y de Estudios Superiores de Monterrey
+A00827269
+B.S. in Robotics and Digital Systems Engineering (June, 2024)
+edgarcancinoe@gmail.com
+a00827269@tec.mx
+
+"""
+
 # roslaunch xarm6_moveit_config demo.launch add_gripper:=true
 
 ############################# Import modules #############################
@@ -6,19 +18,18 @@
 import os
 import sys
 import numpy as np
-# import mathyy
 import torch
 import time
 import random
 
 # Simulation
-# import mujoco_py
 from simulation import TrajectoryPlanner
 from actor_network import ActorNetwork
 
 # Import ROS and robot modules
 import rospy
 import moveit_commander
+# import actionlib
 from geometry_msgs.msg import Pose, PoseStamped
 from std_msgs.msg import Bool
 
@@ -33,7 +44,6 @@ torch.manual_seed(123)
 torch.cuda.manual_seed(123)
 random.seed(123)
 torch.cuda.manual_seed_all(123)
-
 
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
@@ -70,6 +80,9 @@ initial_qpos = {
 
 # Whether robot is ready to receive targets
 ready = False
+# path_strategy = "position"
+path_strategy = "joints"
+
 #########################################################################
 
 ######################## TrajectoryPlanner Class ########################
@@ -86,7 +99,7 @@ trajectoryPlanner = TrajectoryPlanner(params, initial_qpos)
 ########################### Callback functions ##########################
 
 def target_callback(msg) -> None:
-    global scene, robot, trajectoryPlanner, arm, ready
+    global scene, robot, trajectoryPlanner, arm, ready, client, path_strategy
     ready = False
 
     # Acknowledge target recieved
@@ -99,11 +112,11 @@ def target_callback(msg) -> None:
     p.pose.position.x = msg.position.x
     p.pose.position.y = msg.position.y
     p.pose.position.z = msg.position.z
-    scene.add_box("Box", p, size=(0.025, 0.025, 0.025))
+    scene.add_box("Box", p, size=(0.012, 0.012, 0.012))
 
     # Launch movement sequence
     goal = [msg.position.x, msg.position.y, msg.position.z]
-    move_xarm6(trajectoryPlanner, goal, arm)
+    move_xarm6(trajectoryPlanner, goal, arm, client, path_strategy)
 
     # Change status to ready
     ready = True
@@ -134,6 +147,14 @@ if __name__ == '__main__':
         group_name = "xarm6"
         arm = moveit_commander.MoveGroupCommander(group_name)
         
+        # Create client
+        # from control_msgs.msg import FollowJointTrajectoryAction, FollowJointTrajectoryGoal
+        # from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
+
+        # client = actionlib.SimpleActionClient(group_name + '/follow_joint_trajectory', FollowJointTrajectoryAction)
+        # client.wait_for_server()
+        client = None
+
         # Position robot into starting position
         set_starting_position(arm)
         

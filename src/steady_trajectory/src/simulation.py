@@ -1,4 +1,15 @@
 #!/usr/bin/env python3
+"""
+
+Jose Edgar Hernandez Cancino Estrada
+Instituto Tecnologico y de Estudios Superiores de Monterrey
+A00827269
+B.S. in Robotics and Digital Systems Engineering (June, 2024)
+edgarcancinoe@gmail.com
+a00827269@tec.mx
+
+"""
+
 import numpy as np
 import mujoco_py
 import math
@@ -13,7 +24,7 @@ class TrajectoryPlanner():
         self.sim = mujoco_py.MjSim(model, nsubsteps=params['n_substeps'])
         
         # Useful variables
-        self.var = math.sqrt(2)/2
+        self.var = 0
         self.clip_obs = params['clip_obs']
         self.clip_range = params['clip_range']
         self.max_n_timesteps = params['max_n_timesteps']
@@ -55,6 +66,7 @@ class TrajectoryPlanner():
         counter = 0
         obs = initial_state   
         self.goal = target_position
+
         for t in range(self.max_n_timesteps):
             # self.render()
 
@@ -66,7 +78,7 @@ class TrajectoryPlanner():
             done = self._is_success(new_obs['achieved_goal'], target_position)
 
             position_trajectory[t] = new_obs['observation'][:3]
-            joint_states[t] = new_obs['joints']
+            joint_states[t] = self._safe_joints(new_obs['joints'])
             counter += 1
 
             if done:
@@ -76,6 +88,7 @@ class TrajectoryPlanner():
 
         return position_trajectory, joint_states, done, counter
 
+    
     # Compute step
     def step(self, action):
         action = np.clip(action, -self.bound, self.bound)
@@ -83,6 +96,17 @@ class TrajectoryPlanner():
         self.sim.step()
         return self._get_obs()
 
+    def _safe_joints(self, joints):
+        
+        joints[3] = np.clip(joints[3], -3.08, 3.08) # [-178, 178]
+        joints[4] = np.clip(joints[4], -2.05, 2.07) # [-118, 120]
+        joints[5] = np.clip(joints[5], -3.08, 0.18) # [-178, 11]
+        joints[6] = np.clip(joints[6], -3.08, 3.08) # [-178, 178]
+        joints[7] = np.clip(joints[7], -3.08, 3.08) # [-178, 178]
+        joints[8] = np.clip(joints[8], -3.08, 3.08) # [-178, 178]
+        
+        return joints
+    
     def _reset_sim(self, qpos):
         """Resets a simulation and indicates whether or not it was successful.
         If a reset was unsuccessful (e.g. if a randomized state caused an error in the
@@ -125,7 +149,7 @@ class TrajectoryPlanner():
         dt = self.sim.nsubsteps * self.sim.model.opt.timestep
         grip_velp = self.sim.data.get_site_xvelp('robot0:grip') * dt
         robot_qpos, robot_qvel = self._robot_get_obs()
-
+        # print(robot_qpos)
         object_pos = object_rot = object_velp = object_velr = object_rel_pos = np.zeros(0)
         
         gripper_state = robot_qpos[-2:]
@@ -178,7 +202,6 @@ class TrajectoryPlanner():
         inputs = torch.tensor(inputs, dtype=torch.float32).unsqueeze(0)
         return inputs
     
-    
     def _robot_get_obs(self):
         """Returns all joint positions and velocities associated with
         a robot.
@@ -190,8 +213,6 @@ class TrajectoryPlanner():
                 np.array([self.sim.data.get_joint_qvel(name) for name in names]),
             )
         return np.zeros(0), np.zeros(0)
-    
-
 
     def _ctrl_set_action(self, action):
         """For torque actuators it copies the action into mujoco ctrl field.

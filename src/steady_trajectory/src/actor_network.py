@@ -1,4 +1,14 @@
 #!/usr/bin/env python
+"""
+
+Jose Edgar Hernandez Cancino Estrada
+Instituto Tecnologico y de Estudios Superiores de Monterrey
+A00827269
+B.S. in Robotics and Digital Systems Engineering (June, 2024)
+edgarcancinoe@gmail.com
+a00827269@tec.mx
+
+"""
 
 import os
 import torch as T
