@@ -39,11 +39,11 @@ To run the code, one launch and two nodes shall be run consecutively:
    ```
    roslaunch xarm_planner xarm_planner_rviz_sim.launch robot_dof:=6 robot_type:=xarm add_gripper:=true
    ```
-2. Run the _target_generator_ node. This node generates random position targets for the robot to reach.
+2. In another terminal, run the _target_generator_ node. This node generates random position targets for the robot to reach.
    ```
    rosrun steady_trajectory target_generator.py
    ```
-3. Run the _movement_generator_ node. This node will position the arm into its home starting position and then will listen for targets.
+3. Open a third terminal and run the _movement_generator_ node. This node will position the arm into its home starting position and then will listen for targets.
    ```
    rosrun steady_trajectory movement_generator.py
    ```
