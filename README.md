@@ -50,7 +50,7 @@ To run the code, one launch and two nodes shall be run consecutively:
 
 ## Results
 
-Cartesian Path following position waypoints             |  Consecutively set joints configuration
+Cartesian path following position waypoints             |  Consecutively setting joint pose
 :-------------------------:|:-------------------------:
 ![](https://github.com/edgarcancinoe/xArm6_DDPG_ROS/blob/master/results.gif) |   ![](https://github.com/edgarcancinoe/xArm6_DDPG_ROS/blob/master/jointsReachROS.gif)
 
