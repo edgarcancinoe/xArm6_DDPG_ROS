@@ -49,7 +49,12 @@ To run the code, one launch and two nodes shall be run consecutively:
    ```
 
 ## Results
-![](https://github.com/edgarcancinoe/xArm6_DDPG_ROS/blob/master/results.gif) ![](https://github.com/edgarcancinoe/xArm6_DDPG_ROS/blob/master/jointsReachROS.gif)
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://github.com/edgarcancinoe/xArm6_DDPG_ROS/blob/master/results.gif) |   ![](https://github.com/edgarcancinoe/xArm6_DDPG_ROS/blob/master/jointsReachROS.gif)
+
+
 ## Requirements
 ##### ROS
 - ROS Noetic
