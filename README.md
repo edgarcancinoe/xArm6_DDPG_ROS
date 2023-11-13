@@ -7,7 +7,7 @@ The Reinforcement Learning model was trained in a [Gym environment for the UFact
 but a different [DDPG + HER implementation](https://github.com/edgarcancinoe/xarm6_DDPG_HER) was used, based in the original enviroment's code and [OpenAI baseline's HER implementation](https://github.com/openai/baselines/tree/master/baselines/her).
 
 #### Basic functionality
-The ROS package _steady_trajectory_ demonstrates the use of a keras DDPG model (.pt) which computes a trajectory to get the xArm6's end effector from a starting position to and target, final position. The model outputs the necessary change in position for three dimensions (x,y,z) while mantaining a constant end effector's rotation (`q_rot = [-sqrt(2)/2, 0, -sqrt(2)/2, 0]`).
+The ROS package _steady_trajectory_ demonstrates the use of a keras DDPG model (.pt) which computes a trajectory to get the xArm6's end effector from a starting position to and target, final position. The model outputs the necessary change in position for three dimensions (x,y,z) while mantaining a constant end effector's rotation.
 In this implementation, as the trained model only provides the desired position of the end effector for each time step, once a target position is received, the ROS node uses mujoco-py simulation environment to excecute the model policy, and store both:
 1. The followed path.
 2. The joint rotations in radians for each of the arms joints.
