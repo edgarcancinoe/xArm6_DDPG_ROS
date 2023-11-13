@@ -71,6 +71,7 @@ def move_xarm6(planner, goal, arm) -> None:
         arm.execute(plan, wait=True)
         arm.stop()
         arm.clear_pose_targets()
+        time.sleep(2)
     else:
         print("Trajectory not found.")
    
