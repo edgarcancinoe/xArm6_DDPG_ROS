@@ -49,7 +49,7 @@ To run the code, one launch and two nodes shall be run consecutively:
    ```
 
 ## Results
-ssdf
+![](https://github.com/edgarcancinoe/xArm6_DDPG_ROS/blob/master/results.gif)
 
 ## Requirements
 ##### ROS
