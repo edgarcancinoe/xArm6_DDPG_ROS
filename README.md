@@ -58,7 +58,7 @@ To run the code, one launch and two nodes shall be run consecutively:
 - geometry_msgs
   
 ##### Python
-- torch===2.0.1+cu117
+- pytorch===2.0.1+cu117
 - mujoco-py===2.1.2.14
 - numpy===1.24.4
 - rospy
