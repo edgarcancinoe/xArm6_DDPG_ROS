@@ -36,19 +36,7 @@ from std_msgs.msg import Bool
 # Import useful functions
 from util import set_starting_position, move_xarm6
 
-#########################################################################
-
-# Establish random seed to ensure reproducibility
-np.random.seed(123)
-torch.manual_seed(123)
-torch.cuda.manual_seed(123)
-random.seed(123)
-torch.cuda.manual_seed_all(123)
-
-torch.backends.cudnn.deterministic = True
-torch.backends.cudnn.benchmark = False
-
-######################## Useful variables definition ########################
+#################### Useful variables definition ########################
 
 params = {'alpha': 0.001,
         'obs_shape': 10,
