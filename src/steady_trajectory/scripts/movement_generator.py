@@ -50,7 +50,7 @@ params = {'alpha': 0.001,
         # 'gripper_extra_height':,
         'MODEL_XML_PATH': os.path.normpath(os.path.join(__file__, '../../src/assets/reach.xml')),
         # 'env_name': 'xArm6Reach-v1',
-        'policy_path': os.path.normpath(os.path.join(__file__, '../../src/models/modelo_og.pt'))}
+        'policy_path': os.path.normpath(os.path.join(__file__, '../../src/models/model0.pt'))}
 
 initial_qpos = {
             'robot0:slide0': 0.,
@@ -68,8 +68,8 @@ initial_qpos = {
 
 # Whether robot is ready to receive targets
 ready = False
-# path_strategy = "position"
-path_strategy = "joints"
+path_strategy = "position"
+# path_strategy = "joints"
 
 #########################################################################
 

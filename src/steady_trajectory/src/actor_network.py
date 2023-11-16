@@ -35,7 +35,7 @@ class ActorNetwork(nn.Module):
         self.fc1 = nn.Linear(self.state_dims, self.fc1_dims)
         self.fc2 = nn.Linear(self.fc1_dims, self.fc2_dims)
         self.fc3 = nn.Linear(self.fc2_dims, self.fc3_dims)
-        self.action_out = nn.Linear(self.fc3_dims, self.n_actions)
+        self.mu = nn.Linear(self.fc3_dims, self.n_actions)
 
         self.optimizer = optim.Adam(self.parameters(), lr=alpha) 
         self.device = T.device('cuda:0' if T.cuda.is_available() else 'cuda:1')
@@ -46,7 +46,7 @@ class ActorNetwork(nn.Module):
         x = F.relu(self.fc1(state))
         x = F.relu(self.fc2(x))
         x = F.relu(self.fc3(x))
-        x = T.tanh(self.action_out(x)) * self.max_action
+        x = T.tanh(self.mu(x)) * self.max_action
 
         return x
 
