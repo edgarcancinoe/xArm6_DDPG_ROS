@@ -34,6 +34,7 @@ Also, becasue a side goal of this implementation was to ensure the arm's end eff
 waypoints to create a Cartesian Path using the *compute_cartesian_path()* function of the [MoveIt package for the xArm6](https://github.com/xArm-Developer/xarm_ros). 
 
 ### Usage
+First, both [MoveIt](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html) and the [xArm developer package](https://github.com/xArm-Developer/xarm_ros) must be installed in the workspace.
 To run the code, one launch and two nodes shall be run consecutively:
 1. Run the RViz simulation node for the xAm6:
    ```
